@@ -266,11 +266,11 @@ onMounted(() => {
     </div>
 
   </div>
-  </section>
+</section>
 
 <section class="bg-white dark:bg-gray-900 py-12 px-6 md:px-20">
   <h2 class="text-3xl font-bold text-center mb-12 text-blueMarine dark:text-white" data-aos="fade-up">
-      Avant / Après
+      Nos Résultats
     </h2>
   <div class="max-w-5xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
 
@@ -279,7 +279,6 @@ onMounted(() => {
     </div>
 
     <div class="w-full lg:w-1/2 text-center lg:text-left">
-
       <p class="text-gray-600 dark:text-gray-300 mb-8 text-lg">
         Découvrez les résultats visibles avant et après nos soins professionnels.<br />
         Glissez le curseur pour comparer.
@@ -375,9 +374,6 @@ onMounted(() => {
 
 
 
-  <footer class="bg-gray-900 text-white py-6 text-center">
-    <p class="text-sm">&copy; 2025 Johan Dental. Tous droits réservés.</p>
-  </footer>
 
 
 

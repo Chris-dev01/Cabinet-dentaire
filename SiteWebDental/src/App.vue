@@ -71,6 +71,10 @@ onBeforeUnmount(() => {
   <main class="pt-[110px]">
     <RouterView />
   </main>
+
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p class="text-sm">&copy; 2025 Johan Dental. Tous droits réservés.</p>
+  </footer>
 </template>
 
 <style scoped>
