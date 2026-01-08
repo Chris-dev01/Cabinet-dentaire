@@ -1,17 +1,20 @@
 <script setup>
-import { onMounted } from 'vue'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import BeforeAfter from '@/components/BeforeAfter.vue'
-import avantImg from '@/assets/images/dents.jpg'
-import apresImg from '@/assets/images/dents2.jpg'
+  import { onMounted } from 'vue'
+  import AOS from 'aos'
+  import 'aos/dist/aos.css'
+  import BeforeAfter from '@/components/BeforeAfter.vue'
+  import avantImg from '@/assets/images/dents.jpg'
+  import apresImg from '@/assets/images/dents2.jpg'
 
-onMounted(() => {
-  AOS.init({ once: true, duration: 800 })
-})
+  onMounted(() => {
+    AOS.init({ once: true, duration: 800 })
+  })
 </script>
 
 <template>
+  <div class="overflow-x-hidden">
+
+
 <div class="relative w-full h-[450px]">
   <img
     src="@/assets/images/banniere.png"
@@ -53,8 +56,8 @@ onMounted(() => {
           <router-link to="/detartrage">
             <img src="@/assets/images/cleaning.png" alt="Détartrage" class="h-30 inline-block md:h-24 mx-4 sm:mx-6 md:mx-10 hover:scale-110 transition-transform duration-300" />
           </router-link>
-          <router-link to="/invisalign">
-            <img src="@/assets/images/invisaligne.png" alt="Invisalign" class="h-30 inline-block md:h-24 mx-4 sm:mx-6 md:mx-10 hover:scale-110 transition-transform duration-300" />
+          <router-link to="/Aligneur">
+            <img src="@/assets/images/Invisaligne.png" alt="Aligneur" class="h-30 inline-block md:h-24 mx-4 sm:mx-6 md:mx-10 hover:scale-110 transition-transform duration-300" />
           </router-link>
           <router-link to="/prothese">
             <img src="@/assets/images/protheses.png" alt="Prothèse dentaire" class="h-30 inline-block md:h-24 mx-4 sm:mx-6 md:mx-10 hover:scale-110 transition-transform duration-300" />
@@ -206,11 +209,11 @@ onMounted(() => {
       </div>
   </router-link>
 
-  <router-link to="/invisalign">
+  <router-link to="/Aligneur">
 
     <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="300">
-      <img src="@/assets/images/invisaligne.png" alt="Icone Invisalign" class="h-16 mx-auto mb-4" />
-      <h3 class="font-semibold text-lg mb-2 text-gray-800 dark:text-white">Invisalign</h3>
+      <img src="@/assets/images/Invisaligne.png" alt="Icone Aligneur" class="h-16 mx-auto mb-4" />
+      <h3 class="font-semibold text-lg mb-2 text-gray-800 dark:text-white">Aligneur</h3>
       <p class="text-gray-600 dark:text-gray-300 text-sm">Alignez vos dents sans bagues visibles.</p>
     </div>
   </router-link>
@@ -249,21 +252,21 @@ onMounted(() => {
 
 
   <router-link to="/esthetique">
-
-
     <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="700">
       <img src="@/assets/images/esthetique.png" alt="Icone esthétique dentaire" class="h-16 mx-auto mb-4"/>
       <h3 class="font-semibold text-lg mb-2 text-gray-800 dark:text-white">Esthétique dentaire</h3>
-      <p class="text-gray-600 dark:text-gray-300 text-sm">Blanchiment et soins pour un sourire éclatant.</p>
+      <p class="text-gray-600 dark:text-gray-300 text-sm">Soins esthetique pour un sourire éclatant.</p>
     </div>
-
   </router-link>
 
+
+  <router-link to="/blanchiment">
     <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="700">
       <img src="@/assets/images/esthetique.png" alt="Icone esthétique dentaire" class="h-16 mx-auto mb-4"/>
-      <h3 class="font-semibold text-lg mb-2 text-gray-800 dark:text-white">Esthétique dentaire</h3>
-      <p class="text-gray-600 dark:text-gray-300 text-sm">Blanchiment et soins pour un sourire éclatant.</p>
+      <h3 class="font-semibold text-lg mb-2 text-gray-800 dark:text-white">Blanchiment dentaire</h3>
+      <p class="text-gray-600 dark:text-gray-300 text-sm">Blanchiment dentaire pour un sourire éclatant.</p>
     </div>
+  </router-link>
 
   </div>
 </section>
@@ -376,7 +379,7 @@ onMounted(() => {
 
 
 
-
+  </div>
 
 </template>
 

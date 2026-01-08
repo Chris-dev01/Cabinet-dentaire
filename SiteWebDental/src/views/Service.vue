@@ -19,11 +19,11 @@ const services = [
     delay: 200
   },
   {
-    title: 'Invisalign',
+    title: 'Aligneur',
     description: 'Alignez vos dents sans bagues visibles.',
     imgSrc: 'src/assets/images/invisaligne.png',
-    alt: 'Icone Invisalign',
-    link: '/invisalign',
+    alt: 'Icone Aligneur',
+    link: '/Aligneur',
     delay: 300
   },
   {
@@ -52,11 +52,19 @@ const services = [
   },
   {
     title: 'Esthétique dentaire',
-    description: 'Blanchiment et soins pour un sourire éclatant.',
+    description: 'Soins ethetique pour un sourire éclatant.',
     imgSrc: 'src/assets/images/esthetique.png',
     alt: 'Icone esthétique dentaire',
     link: '/esthetique',
     delay: 700
+  },
+    {
+    title: 'Blanchiment dentaire',
+    description: 'Blanchiment pour un sourire éclatant.',
+    imgSrc: 'src/assets/images/esthetique.png',
+    alt: 'Icone blanchiment dentaire',
+    link: '/blanchiment',
+    delay: 800
   },
 ]
 </script>

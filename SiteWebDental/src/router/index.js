@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Accueil from '@/views/Accueil.vue'
 import Equipe from '@/views/Equipe.vue'
 import Contact from '@/views/Contact.vue'
+import CarrieView from '@/views/services/CarrieView.vue'
+import BlanchimentView from '@/views/services/BlanchimentView.vue'
+import AligneurView from '@/views/services/AligneurView.vue'
 import Rdv from '@/views/Rdv.vue'
 import Service from '@/views/Service.vue'
 
@@ -34,6 +37,23 @@ const routes = [
       component: Service,
     },
 
+    {
+      path: '/carie',
+      name: 'Carie',
+      component: CarrieView,
+    },
+
+    {
+      path: '/aligneur',
+      name: 'Aligneur',
+      component: AligneurView,
+    },
+
+    {
+      path: '/blanchiment',
+      name: 'Blanchiment',
+      component: BlanchimentView,
+    },
   ]
 
 
